@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Mohankumar2001/fullstack-react#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "serve-index": "^1.9.1"
   },
