@@ -5,7 +5,7 @@
   "scripts": {
     "start": "cd backend && node server.js && cd ../frontend && npm start && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd frontend && npm run build && cd ../backend && npm init"
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install"
   },
   "repository": {
     "type": "git",
