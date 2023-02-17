@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && node server.js && cd ../frontend && npm start && cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd frontend && npm run build && cd ../backend && npm init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohankumar2001/fullstack-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohankumar2001/fullstack-react/issues"
+  },
+  "homepage": "https://github.com/Mohankumar2001/fullstack-react#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "serve-index": "^1.9.1"
+  },
+  "description": ""
+}
